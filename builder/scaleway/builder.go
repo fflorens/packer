@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/fflorens/scaleway-cli/pkg/api"
 	"github.com/hashicorp/packer/common"
 	"github.com/hashicorp/packer/helper/communicator"
 	"github.com/hashicorp/packer/helper/multistep"
 	"github.com/hashicorp/packer/packer"
-	"github.com/scaleway/scaleway-cli/pkg/api"
 )
 
 // The unique id for the builder

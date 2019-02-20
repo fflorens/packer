@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/scaleway/scaleway-cli/pkg/api"
+	"github.com/fflorens/scaleway-cli/pkg/api"
 )
 
 type Artifact struct {

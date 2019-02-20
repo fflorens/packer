@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/fflorens/scaleway-cli/pkg/api"
 	"github.com/hashicorp/packer/helper/multistep"
 	"github.com/hashicorp/packer/packer"
-	"github.com/scaleway/scaleway-cli/pkg/api"
 )
 
 type stepCreateServer struct {

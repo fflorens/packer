@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/fflorens/scaleway-cli/pkg/api"
 	"github.com/hashicorp/packer/helper/multistep"
 	"github.com/hashicorp/packer/packer"
-	"github.com/scaleway/scaleway-cli/pkg/api"
 )
 
 type stepServerInfo struct{}

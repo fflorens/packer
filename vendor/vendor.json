@@ -1513,20 +1513,20 @@
 		},
 		{
 			"checksumSHA1": "17M5pJv8Wr4lIxmINnba9vTozR8=",
-			"path": "github.com/scaleway/scaleway-cli/pkg/api",
-			"revision": "7b12c9699d70d4ca06140b7d829d09b6a1c8f6f5",
+			"path": "github.com/fflorens/scaleway-cli/pkg/api",
+			"revision": "3fd38676a9d49ebaeca2e0636b5f5584db37cabd",
 			"revisionTime": "2018-09-21T09:43:45Z"
 		},
 		{
 			"checksumSHA1": "kveaAmNlnvmIIuEkFcMlB+N7TqY=",
-			"path": "github.com/scaleway/scaleway-cli/pkg/sshcommand",
-			"revision": "51d0290d9434dc6139dd89001236cfd989521a79",
+			"path": "github.com/fflorens/scaleway-cli/pkg/sshcommand",
+			"revision": "3fd38676a9d49ebaeca2e0636b5f5584db37cabd",
 			"revisionTime": "2018-03-05T22:44:21Z"
 		},
 		{
 			"checksumSHA1": "elO1R+B5Ym3ZNA5Zht4cIE/8b0c=",
-			"path": "github.com/scaleway/scaleway-cli/pkg/utils",
-			"revision": "51d0290d9434dc6139dd89001236cfd989521a79",
+			"path": "github.com/fflorens/scaleway-cli/pkg/utils",
+			"revision": "3fd38676a9d49ebaeca2e0636b5f5584db37cabd",
 			"revisionTime": "2018-03-05T22:44:21Z"
 		},
 		{

@@ -4,11 +4,12 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"strings"
 
 	"github.com/dustin/go-humanize"
+	"github.com/fflorens/scaleway-cli/pkg/api"
 	"github.com/hashicorp/packer/helper/multistep"
 	"github.com/hashicorp/packer/packer"
-	"github.com/scaleway/scaleway-cli/pkg/api"
 )
 
 type stepImage struct{}
@@ -23,7 +24,7 @@ func (s *stepImage) Run(_ context.Context, state multistep.StateBag) multistep.S
 
 	ui.Say(fmt.Sprintf("Creating image: %v", c.ImageName))
 
-	_, err := humanize.ParseBytes(c.Image)
+	_, err := humanize.ParseBytes(strings.Split(c.Image, ":")[0])
 	if err != nil {
 		image, err := client.GetImage(c.Image)
 		if err != nil {
